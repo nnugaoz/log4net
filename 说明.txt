@@ -1,4 +1,4 @@
-1、工程引入log4net库
+1、工程引入log4net库，右击工程，管理NuGet包，引入log4net
 
 2、在AssemblyInfo.cs中添加
 [assembly: log4net.Config.XmlConfigurator(Watch = true)]
